@@ -4,13 +4,7 @@ $.fn.populate = function (dataArray) {
     // check if element is of type select
     if ($selectbox.is("select")) {
         $.each(dataArray, function (i, data) {
-            $selectbox.append('<option value="' + data + '">' + data + '</option>');
+            $selectbox.append('<option value="' + data.value + '">' + data.text + '</option>');
         });
     }
 };
-
-$(document).ready(function () {
-    var dataArray = ["one", "two", "three", "four", "five"];
-
-    $('#myselect').populate(dataArray);
-});
