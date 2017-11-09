@@ -1,5 +1,6 @@
 # IsoMetrix
 IsoMetrix .Net Assessment
+Completed by: David Watson
 
 # Requirements
 
@@ -27,4 +28,3 @@ IsoMetrix .Net Assessment
   -Latitude
   -Longitude
 -reference to plugin
--reference to geocoding api
